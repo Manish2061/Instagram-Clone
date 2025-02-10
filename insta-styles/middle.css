@@ -1,0 +1,502 @@
+@media (max-width: 724.9px) {
+  .middle-section {
+    flex: 2;
+    max-width: 760px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-top: 20px;
+  }
+
+  .middle-header-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    height: 60px;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.15s;
+    position: relative;
+  }
+
+  .header-left-tooltip {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    color: rgb(210, 210, 210);
+    padding: 6px 8px;
+    border: 1px solid white;
+    pointer-events: none;
+    position: absolute;
+    white-space: nowrap;
+    right: -40px;
+    top: 40px;
+    transition: opacity 0.15s;
+    display: none;
+  }
+
+  .header-left:hover .header-left-tooltip {
+    display: block;
+    opacity: 1;
+  }
+
+  .header-left:hover {
+    background-color: rgb(240, 240, 240);
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  .header-search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 4px 10px;
+    width: 250px;
+    border-radius: 6px;
+    background-color: rgb(240, 240, 240);
+  }
+
+  .ig-logo {
+    width: 110px;
+  }
+
+  .ig-logo-container {
+    margin-right: 4px;
+  }
+
+  .header-search-bar {
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+ }
+
+ .header-search-icon {
+  padding-top: 3px;
+ }
+
+ .header-heart {
+  cursor: pointer;
+ }
+
+ .middle-footer-section {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
+  z-index: 1;
+  height: 50px;
+  align-items: center;
+ }
+
+ .footer-link {
+  cursor: pointer;
+ }
+
+ .header-left-tooltip {
+  opacity: 0;
+}
+}
+
+@media (min-width: 725px) and (max-width: 1263.9px) {
+  .middle-section {
+    margin-left: 72px;
+    flex: 2;
+    max-width: 760px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .middle-header-section {
+    display: none;
+  }
+
+  .middle-footer-section {
+    display: none;
+  }
+
+  .header-left-tooltip {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1264px) {
+  .middle-section {
+    margin-left: 245px;
+    flex: 2;
+    max-width: 760px;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+  }
+
+  .middle-header-section {
+    display: none;
+  }
+
+  .middle-footer-section {
+    display: none;
+  }
+
+  .header-left-tooltip {
+    opacity: 0;
+  }
+}
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.story-section {
+  display: flex;
+  gap: 15px;
+}
+
+.user-story {
+  border: 3px solid red;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.swipe-arrow {
+  position: absolute;
+  background-color: white;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  right: 10px;
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 12px;
+}
+
+.gadgetbyte {
+  border: 1px solid rgb(201, 201, 201);
+}
+
+.middle-main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-image {
+  width: 100px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.message-1 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 400;
+
+}
+
+.message-2 {
+  font-size: 14px;
+  color: gray;
+  font-weight: 300;
+}
+
+.right-image-container {
+  margin-bottom: 10px;
+}
+
+.post-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  border-top: 1px solid rgb(210, 210, 210);
+}
+
+.suggestion-message {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.creator-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.creator-info {
+  display: flex;
+  align-items: center;
+}
+
+.creator-pic-container {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.creator-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-image-1 {
+  width: 100%;
+  object-fit: contain;
+}
+
+.creator-name {
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.follow {
+  font-size: 15px;
+  color: rgb(0, 128, 255);
+  cursor: pointer;
+}
+
+.follow:hover {
+  color: black;
+}
+
+.creator-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.post-date {
+  color: gray;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.post-more-container {
+  cursor: pointer;
+  position: relative;
+}
+
+.more-tooltip {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  color: rgb(210, 210, 210);
+  padding: 6px 8px;
+  border: 1px solid white;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  white-space: nowrap;
+  right: -80px;
+  top: 25px;
+  transition: opacity 0.15s;
+  z-index: 1;
+}
+
+.post-more-container:hover .more-tooltip {
+  opacity: 1;
+}
+
+.post-audio {
+  font-size: 13px;
+}
+
+.post-content {
+  border: 1px solid rgb(210 210 210);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  height: 600px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.audio-container {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50, 50, 50);
+  right: 16px;
+  bottom: 16px;
+  cursor: pointer;
+}
+
+.react-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.reactions {
+  display: flex;
+  align-items: center;
+}
+
+.heart-container,
+.comment-container,
+.send-container,
+.save-container {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+
+.comment-container:hover,
+.send-container:hover,
+.save-container:hover {
+  fill: gray;
+}
+
+.heart-container svg path {
+  stroke: black;
+}
+
+.heart-container:hover svg path{
+  stroke: gray;
+}
+
+.heart-container {
+  padding-right: 4px;
+}
+
+.comment-container {
+  padding: 0 4px;
+}
+
+.send-container {
+  padding-left: 4px;
+}
+
+.no-of-likes {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.view-comments,
+.add-comment {
+  font-size: 15px;
+  color: gray;
+}
+
+.view-comments {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.post-description {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.add-comment-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emoji {
+  cursor: pointer;
+  stroke: gray;
+}
+
+.emoji:hover {
+  stroke: rgb(210, 210, 210);
+}
+
+.heart-container:hover .react-tooltip,
+.comment-container:hover .react-tooltip,
+.send-container:hover .react-tooltip,
+.save-container:hover .react-tooltip {
+  opacity: 1;
+}
+
+.react-tooltip {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  color: rgb(210, 210, 210);
+  padding: 6px 8px;
+  border: 1px solid white;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  white-space: nowrap;
+  right: -20px;
+  bottom: -28px;
+  transition: opacity 0.15s;
+  z-index: 1;
+}
+
+.post-image-2 {
+  object-fit: contain;
+}
+
+.header-left-tooltip {
+  opacity: 0;
+}

@@ -1,0 +1,153 @@
+@media (max-width: 1113.9px) {
+  .right-section {
+    display: none;
+  }
+}
+
+@media (min-width: 1114px) {
+  .right-section {
+    flex: 1;
+    padding-left: 72px;
+    padding-top: 30px;
+  }
+  
+  .my-account-pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .my-account {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-name {
+    cursor: pointer;
+  }
+  
+  .insta-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  
+  .real-name {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .account-pic {
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  .switch-section,
+  .suggested-follow {
+    font-size: 14px;
+    color: rgb(0, 170, 255);
+    cursor: pointer;
+    transition: color 0.15s;
+  }
+  
+  .switch-section:hover,
+  .suggested-follow:hover {
+    color: black;
+  }
+  
+  .suggested-account-profile {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 210, 210);
+  }
+  
+  .suggested-account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .suggested-account-pic {
+    margin-right: 12px;
+  }
+  
+  .suggested-account-pic {
+    cursor: pointer;
+  }
+  
+  .suggested-account-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+  
+  .follower-info {
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+  }
+  
+  .contained-accounts {
+    padding-left: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .suggestions-container {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  
+  .suggestion {
+    color: gray;
+    font-weight: 600;
+  }
+  
+  .see-all {
+    cursor: pointer;
+    transition: color 0.15s;
+    font-size: 14px;
+  }
+  
+  .see-all:hover {
+    color: rgb(145, 145, 145);
+  }
+  
+  .suggested-flex {
+    display: flex;
+  }
+  
+  .footer {
+    width: 300px;
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+  }
+  
+  .footer-1 span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .footer-1 {
+    margin-bottom: 20px;
+  }
+  
+  .suggested-accounts-container {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 724.9px) {
+  .left-section {
+    /* width: 72px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid rgb(210, 210, 210);
+    padding-left: 10px;
+    padding-right: 10px; */
+    display: none;
+  }
+
+  .sidebar-icon-name,
+  .home,
+  .more,
+  .insta-logo {
+    display: none;
+  }
+
+  .insta-logo-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.15s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .insta-logo-container:hover {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .profile {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .more-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 80px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .sidebar-link:hover,
+  .more-container:hover {
+    background-color: rgb(240, 240, 240);
+  }
+}
+
+@media (min-width: 725px) and (max-width: 1263.9px) {
+
+  .left-section {
+    width: 72px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid rgb(210, 210, 210);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .sidebar-icon-name,
+  .home,
+  .more,
+  .insta-logo {
+    display: none;
+  }
+
+  .insta-logo-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.15s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .insta-logo-container:hover {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .profile {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .more-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 80px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .sidebar-link:hover,
+  .more-container:hover {
+    background-color: rgb(240, 240, 240);
+  }
+}
+
+@media (min-width: 1264px) {
+
+  .left-section {
+    width: 245px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid rgb(210, 210, 210);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .insta-logo {
+    width: 110px;
+  }
+
+  .insta-logo-icon {
+    display: none;
+  }
+  
+  .insta-logo-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  
+  .profile {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .more-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 80px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .sidebar-link:hover,
+  .more-container:hover {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .sidebar-icon {
+    margin-right: 16px;
+  }
+  
+  .more-icon {
+    margin-right: 12px;
+  }
+  
+  .home {
+    font-weight: bold;
+  }
+}
